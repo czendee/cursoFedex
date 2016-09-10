@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:gravity="bottom"
+ >
+
+ <!-- 
+<Button 
+android:id="@+id/takepicture"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=" * captura el momento "
+android:layout_gravity="right"
+android:layout_margin="10dp"
+android:onClick="goToButtonClick"
+/>
+
+<Button 
+android:id="@+id/displayTexto"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=" Frase del dia "
+android:onClick="goToButtonDespliegaTextoClick"
+android:layout_below="@+id/takepicture"
+/>
+-->
+<Button 
+android:id="@+id/displayVideo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=" Ejercicio del Dia "
+android:layout_below="@+id/displayTexto"
+/>
+
+                    <ImageButton
+                        android:id="@+id/ImageButton02"
+                        style="@style/AppBaseTheme"
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="false"
+                        android:layout_marginTop="15dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"                        
+                        android:onClick="goTo08Click"
+                        android:src="@drawable/personaje01hectorized" />
+
+                                        <ImageButton
+                        android:id="@+id/ImageButton03"
+                        style="@style/AppBaseTheme"
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="false"
+                        android:layout_marginTop="15dp"                        
+						android:adjustViewBounds="true"
+                        android:scaleType="fitCenter" 
+                        android:onClick="goTo08Click"
+                        android:src="@drawable/personaje02hectorized" />
+
+                    
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:gravity="bottom"
+ >
+
+    <TextView
+        android:id="@+id/textochaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:layout_margin="10dp"
+        android:text="@string/hello_world" />
+    
+<Button 
+android:id="@+id/visioncha"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=" * vision chaman "
+android:layout_gravity="right"
+android:layout_margin="10dp"
+
+android:layout_below="@+id/textochaman"
+/>
+
+
+                    <ImageButton
+                        android:id="@+id/ImageButton04"
+                        style="@style/AppBaseTheme"
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="false"
+						android:layout_gravity="right"
+						android:layout_margin="10dp"
+						android:adjustViewBounds="true"
+                        android:scaleType="fitCenter" 
+                        android:onClick="goTo08Click"
+                        android:src="@drawable/personaje05hectorized" />
+
+
+                    
+                  
+</LinearLayout>

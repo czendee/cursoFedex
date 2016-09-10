@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    tools:context=".MainActivity" >
+ 
+   <WebView  
+    android:id="@+id/webview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  />
+ 
+         
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonLogin002"
+        android:layout_below="@+id/Entry03"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/cerrarruta02"
+        android:gravity="center|bottom"
+        android:onClick="goToVisionChaman"
+        android:contentDescription="@string/buttonLogin002"
+         />                 
+    
+</RelativeLayout>

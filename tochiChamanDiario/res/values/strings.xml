@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tochi Chaman 8</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+        <!--   login -->
+    <string name="textLogin001">Employee:</string>
+    <string name="textLogin002">KEY:</string>
+    <string name="buttonLogin001">Login</string>
+    <string name="compose_hint_usuario">Usuario</string>
+    
+    <!--   menu -->
+    <string name="action_search">Buscars</string>
+    <string name="action_location_found">Locas</string>
+    <string name="action_refresh">Refreshca</string>
+    <string name="action_help">aaayuda</string>
+    <string name="action_check_updates">Administrar</string>
+    
+    <!-- grid edificios -->
+    <string name="title_activity_listideas"> Lista de Ideas</string>
+    <string name="title_activity_listruta"> Historias</string>
+    <string name="buttonCerrar001">Salir</string>
+    
+   
+    
+    <string name="bt_listaedificioseditar"> Editar</string>
+    <string name="bt_credit"> credis</string>   
+    
+    <string name="buttonLogin002">Chaman Vision</string>
+    
+    <string name="title_activity_chamanvision"> Vision Chaman</string>
+    
+    <string name="title_activity_videodeldia"> Video del dia</string>
+    
+</resources>
